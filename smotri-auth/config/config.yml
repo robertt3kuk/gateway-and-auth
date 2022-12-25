@@ -1,0 +1,11 @@
+app:
+  name: "bilim"
+  version: "1.0.0"
+logger:
+  log_level: "debug"
+  rollbar_env: "bilim"
+grpc:
+  port: ":50051"
+postgres:
+  pool_max: 2
+  url: "postgres://postgres:qwerty@localhost:5433/postgres"
